@@ -121,6 +121,8 @@
 
   align-items: center;
 }
+
+/* this class given to spread the border-bottom evenly till elements end */
 .progress-bar-box {
   border-bottom: 5px solid rgba(68, 68, 68, 0.275);
   /* border-bottom-left-radius: 4px;
