@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.card {
+  outline: 1px solid black;
+  width: 350px;
+  margin: 20px auto;
+  padding: 1.5rem;
+}
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.transfer-icon {
+  width: 40px;
+}
+.transcation-icon {
+  width: 40px;
+}
+.identification-icon {
+  width: 40px;
+}
+.info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  list-style: none;
+  line-height: 1.8;
+}
+.list-icon {
+  width: 20px;
+}
+
+.connect-account {
+  text-align: center;
+  color: #444;
+}
+.kelly-frank {
+  text-align: center;
+  /* background-color: bisque; */
+  color: #444;
+}
+.voyance {
+  color: #333;
+  padding: 1rem;
+}
+.details {
+  color: #444;
+  padding-top: 1rem;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+.cancel-button {
+  color: purple;
+  background-color: antiquewhite;
+  border: 1px solid rgba(68, 68, 68, 0.38);
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+}
+.access-button {
+  background-color: purple;
+  color: aliceblue;
+  border-radius: 4px;
+  border: 1px solid purple;
+  padding: 0.8rem 2rem;
+}
