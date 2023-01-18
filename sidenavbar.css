@@ -32,6 +32,15 @@ body {
   padding-bottom: 10px;
   text-transform: uppercase;
   cursor: pointer;
+  outline: 1px solid black;
+}
+
+.navbar-main::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  /* display: block; */
 }
 .navbar-contents {
   margin-top: 1rem;
