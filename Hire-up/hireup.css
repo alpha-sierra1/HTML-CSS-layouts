@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto";
+  font-family: "Poppins";
   line-height: 1.3;
+  padding: 10rem 8rem;
 }
 :root {
   --clr-primary: rgb(8, 8, 188);
@@ -19,3 +20,34 @@ body {
   --fs-secondary: 20px;
   --fs-paragraph: 10px;
 }
+main {
+  display: flex;
+  gap: 5rem;
+}
+.image {
+  height: 22rem;
+  /* width: 20rem; */
+}
+.check-icon {
+  height: 1.5rem;
+}
+
+.feature {
+  text-transform: uppercase;
+  color: purple;
+  letter-spacing: .2rem;
+  font-family: "Poppins";
+  }
+
+
+h1 {
+
+}
+
+.description {
+
+}
+.services {
+  list-style: none;
+}
+.service-details
