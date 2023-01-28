@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  font-family: "Roboto";
+  justify-content: space-between;
+  padding: 2rem;
+  /* font-size: 2rem; */
+  /* font-weight: 500; */
+}
+.glint-sign {
+  font-size: 2rem;
+}
+.dot {
+  color: green;
+}
+.menu-sign {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: green;
+}
+.welcome {
+  font-family: "Roboto";
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.heading-primary {
+  font-family: "Roboto";
+  font-size: 3rem;
+}
+.button-1 {
+}
+
+.button-2 {
+}
