@@ -39,7 +39,8 @@ h2 {
 }
 .box-1 {
   display: flex;
-  flex-grow: 1;
+  flex-grow: 0.5;
+  flex-direction: column;
 }
 .box-2 {
   display: flex;
@@ -50,8 +51,14 @@ h2 {
   flex-grow: 3;
 }
 .sub-box-1 {
-  height: 10rem;
-
+  height: 8rem;
   background-color: var(--clr-box-contents);
   outline: 1px solid white;
+  display: flex;
+  flex-grow: 1;
+  margin: 1.2rem;
+  border-radius: 6px;
+}
+.sub-box-2 {
+  background-color: var(--clr-box-contents);
 }
