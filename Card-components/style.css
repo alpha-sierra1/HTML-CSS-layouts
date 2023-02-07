@@ -7,7 +7,7 @@
   --clr-background: black;
   --clr-box: rgba(37, 35, 35, 0.553);
   --clr-box-contents: grey;
-  --clr-btn: rgba(243, 168, 243, 0.617);
+  --clr-btn: rgba(246, 118, 246, 0.617);
 }
 body {
   background-color: var(--clr-background);
@@ -31,7 +31,7 @@ h2 {
 .box-2,
 .box-3 {
   background-color: var(--clr-box);
-  border: 1px solid white;
+
   height: 25rem;
   border-radius: 6px;
   /* width: 10rem; */
@@ -45,20 +45,43 @@ h2 {
 .box-2 {
   display: flex;
   flex-grow: 2;
+  flex-direction: column;
 }
 .box-3 {
   display: flex;
   flex-grow: 3;
+  flex-direction: column;
 }
 .sub-box-1 {
-  height: 8rem;
   background-color: var(--clr-box-contents);
-  outline: 1px solid white;
-  display: flex;
+  /* outline: 1px solid white; */
+  /* display: flex; */
   flex-grow: 1;
   margin: 1.2rem;
   border-radius: 6px;
 }
 .sub-box-2 {
   background-color: var(--clr-box-contents);
+  display: flex;
+  margin: 0 1.5rem 0.7rem 1.5rem;
+  width: 5rem;
+  border-radius: 4px;
+  height: 1.5rem;
+}
+.sub-box-3 {
+  background-color: var(--clr-box-contents);
+  display: flex;
+  margin: 0 1.5rem 0.7rem 1.5rem;
+
+  border-radius: 4px;
+  height: 1.5rem;
+}
+.button {
+  background-color: var(--clr-btn);
+  width: 5rem;
+  margin: 2rem 1.5rem 0.7rem 1.5rem;
+  border-radius: 4px;
+  display: flex;
+  height: 1.8rem;
+  margin-left: auto;
 }
